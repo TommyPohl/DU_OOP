@@ -54,6 +54,13 @@ class Car:
         print(f"Price: ${self.__price}")
         print("-" * 30)
 
+car1 = Car("Toyota Supra", 2022, "Toyota", 3.0, "Red", 55000)
+car1.display_info()
+
+
+print("Old price:", car1.get_price())
+car1.set_price(53000)
+print("New price:", car1.get_price())
 
 
 
